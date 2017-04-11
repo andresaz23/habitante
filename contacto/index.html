@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../habitante.css"/>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="../menu.js"></script>
+<script type="text/javascript" src="validacion.js"></script>
+<title>Contacto</title>
+</head>
+
+<body>
+<div id="contenedor">
+    
+        <div id="encabezado">
+        <h1><a href="../index.html">habitante</a></h1>
+    
+   	 <div id="menu">
+     <div class="menu_bar">
+			<a href="#" class="bt-menu"><img src="../img/menu.png" height="60px" alt="menu icono" /></a>
+		</div>
+        
+        <nav>
+        <ul>
+                <li><a href="index.html">nota de tapa</a></li>
+                <li><a href="../linea_editorial/index.html">l&iacute;nea editorial</a></li>
+                <li><a href="../estilo_de_vida/index.html">estilo de vida </a></li>
+                <li><a href="../galeria/index.html">galer&iacute;a</a></li>
+                <li><a href="../arte/index.html">arte</a></li>
+                <li><a href="../musica/index.html">m&uacute;sica</a></li>
+                <li><a href="../gastronomia/index.html">gastronom&iacute;a</a></li>
+            </ul>
+            </nav>
+	</div>
+  </div> 
+    
+  <div id="contenido">
+	
+    <div id="notas">
+    <img src="img/adios-verano.jpg" alt="Adios Verano" />
+        
+	<h2><span class="invisible">Contacto</span></h2>
+        
+    <p>Queres contarnos acerca de alg&uacute;n lugar que conociste, alg&uacute;n plan  para hacer o compartirnos alguna duda o comentario sea lo que sea siempre  estamos dispuestos a escucharte, por favor llena el formulario a continuaci&oacute;n y  nos comunicaremos contigo tan pronto como nos sea posible.</p>
+    
+	<div id="espacioformulario">
+    <form action="mailto:andresaz23@hotmail.com.com" method="post" enctype="text/plain" name="formulario" id="formulario" onsubmit="return validarFormulario()">
+    
+      <label for="nombre"  class="espaciado">Nombre*</label>
+      <input type="text" name="nombre" id="nombre" size="40" maxlength="100" />
+      <label for="email"  class="espaciado">Email*</label>
+      <input type="text" name="email" id="email" size="40" maxlength="100" />
+    
+    <p>Cu&aacute;l  es el motivo de tu mensaje*</p>
+    <input type="checkbox" name="consulta" id="consulta" class="check" value="consulta" />
+	<label for="diseño">Consulta</label>
+    
+	<input type="checkbox" name="comentario" id="comentario" class="check" value="comentario" />
+	<label for="salon" >Comentario</label>
+    
+	<input type="checkbox" name="sugerencia" id="sugerencia" class="check" value="sugerencia"/>
+	<label for="catering">Sugerencia</label>
+    
+    <input type="checkbox" name="malfuncionamiento" id="malfuncionamiento" class="check" value="malfuncionamiento"/>
+	<label for="musica">Mal funcionamiento</label>
+    
+    <input type="checkbox" name="otro" id="otro" class="check" value="otro"/>
+	<label for="social">otro</label>
+    
+    <p>Sexo*</p>
+    <input type="radio" name="sexo" id="masculino" value="masculino" class="check" />
+	<label for="dia">Masculino</label>
+	<input type="radio" name="sexo" id="femenino" value="femenino" class="check" />
+	<label for="noche">Femenino</label>
+    
+    <label for="comentarios" class="espaciado">Mensaje</label>
+	<textarea name="comentarios" id="comentarios"cols="45" rows="5"></textarea>
+    
+    <input type="submit" name="enviar" id="enviar" value="Enviar" class="espaciado" />
+	</form>
+  </div> 
+ </div>
+ 
+</div>
+
+<div id="menudos">
+        <ul>
+                <li><a href="../subscripcion/index.html">Subscripci&oacute;n</a></li>
+                <li class="seleccionado"><a href="../contacto/index.html">Contacto</a></li>
+                <li><a href="../proyecto_habitar/index.html">Proyecto habitar</a></li>
+                <li><a href="../trabaja_con_nosotros/index.html">Trabaja con nosotros</a></li>
+                <li><a href="../staff/index.html">staff</a></li>
+                <li><a href="../publicidad/index.html">Publicidad</a></li>
+                <li><a href="../juego/index.html">Juego</a></li>
+            </ul>
+	</div>
+	   
+	<div id="diseñador">
+    
+   	<p>Diseño y realizaci&oacute;n  <a href="../datos_alumno/index.html">Andr&eacute;s Arango</a>  todos los derechos reservados.</p>
+       
+    </div>
+</div>
+
+
+</body>
+</html>
